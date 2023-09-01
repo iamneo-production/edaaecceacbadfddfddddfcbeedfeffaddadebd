@@ -29,10 +29,11 @@ public class Apptest {
         List<WebElement> allLink = driver.findElements(By.tagName("a"));
         for (WebElement link : allLink) {
             System.out.println("Link Text :: " + link.getText());
-. ext());
-System.out.println("Link URL :: " + link.getAttribute("href"));
-System.out.println("-------------------------------------------");
+
+            System.out.println("Link URL :: " + link.getAttribute("href"));
+            System.out.println("-------------------------------------------");
+        }
+    }
 }
-}
-}
+
 
